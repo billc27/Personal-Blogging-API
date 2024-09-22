@@ -16,3 +16,4 @@ A RESTful API to power a personal blog.
 * MySQL
 * Jest
 * Supertest
+* Docker
