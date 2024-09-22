@@ -4,6 +4,7 @@ const createDatabase = async() => {
     try {
         await db.query(`CREATE DATABASE IF NOT EXISTS ${process.env.DB_NAME}`);
         await db.query(`USE ${process.env.DB_NAME}`);
+        await db.query('DROP TABLE IF EXISTS articles');
         await db.query(
             `CREATE TABLE IF NOT EXISTS articles (
                 id INT AUTO_INCREMENT PRIMARY KEY,
