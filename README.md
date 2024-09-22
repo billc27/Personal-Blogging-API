@@ -12,5 +12,7 @@ A RESTful API to power a personal blog.
 
 ## Tech Stacks
 * JavaScript
-* Express
+* Node + Express
 * MySQL
+* Jest
+* Supertest

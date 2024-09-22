@@ -38,3 +38,5 @@ createDatabase().then(() => {
 }).catch (err => {
     console.error('Error initializing database:', err);
 });
+
+module.exports = app;
