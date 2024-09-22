@@ -1,5 +1,7 @@
 # Personal Blogging API
-A RESTful API to power a personal blog.
+A RESTful API to power a personal blog using Node.js and Express. This project includes:
+* Unit Testing: Comprehensive unit tests using Jest and Supertest to ensure the reliability and correctness of the API.
+* Dockerized Environment: Fully containerized setup using Docker and Docker Compose for easy deployment and consistent development environments.
 <br />
 
 ## Functionality
